@@ -1,0 +1,1 @@
+This is a practice of my github portfolio for FCC and making the changes that I need to do for learning how to do HTML and full stack development.
