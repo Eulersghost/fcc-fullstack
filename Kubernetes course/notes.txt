@@ -1,0 +1,22 @@
+Further reading:
+
+Patterns of Enterpirse application architecture - Martin Fowler
+Domain Driven Design (github) -- https://github.com/ddd-crew/free-ddd-learning-resources
+
+Monolithic vs Microservices paradigm and architecture
+
+Monolithic means running everything on the same server, scailing would involve essentially copying the whole server/files and/or configurations.  Each service (web server, business, data, etc) was layered but everything was on one machine.
+
+Microservices offer fine grain control over each piece of a server or service running, better capable with small teams and scailability is super easy.  Some or most of the parts can be autoscailed and autonomous.  Also has domain ownership of it's relevent data.
+
+Microservices have better isolation and can get rid of dependency on venor services/software, etc. Better and faster deployments, and easier to understand.
+
+Microservices drawbacks include risk of added complexity and testing, deployment might not be simple and straightforward.  integrating and managing multiple DB, latency errors, transient errors, multiple points of failure, and security risks.
+
+Cloud native = containers
+=api exposure
+=immutable infrastructure
+=utilizing open source tools and projects 
+=using autiomation
+=Microservices
+=service meshes
