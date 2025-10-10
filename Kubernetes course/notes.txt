@@ -3,6 +3,8 @@ Further reading:
 Patterns of Enterpirse application architecture - Martin Fowler
 Domain Driven Design (github) -- https://github.com/ddd-crew/free-ddd-learning-resources
 
+https://www.freecodecamp.org/news/learn-docker-and-kubernetes-hands-on-course/
+
 Monolithic vs Microservices paradigm and architecture
 
 Monolithic means running everything on the same server, scailing would involve essentially copying the whole server/files and/or configurations.  Each service (web server, business, data, etc) was layered but everything was on one machine.
