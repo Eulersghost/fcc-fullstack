@@ -15,22 +15,34 @@
         Your Cart
     </h2>
     <image src="Sony-PlayStation-5-Console.jpg" alt="picture of a Playstation 5">
+   <p> Brand new mint Playstation 5</p>
+   <p> $700.00</p>
    </section>
    <section>
     <h2>
         Payment Information
     </h2>
     <form action="">
-        <label for="card-name">Cardholder's Name *</label>
+
+        <label for="card-name" aria-hidden="true">Cardholder's Name <span aria-hidden="true">
+            *
+        </span></label>
         <input type="text" id="card-name" name="card-name" required>
-            <p>Please enter the name exactly as it appears on your card</p>
+        <p>Please enter the name exactly as it appears on your card</p>
 
-        <label for="card-number">Cardholer's Number *</label>
-        <input type="text" id="card-number" name="card-number" required>
-            <p>Enter your card number exactly how it appears</p>
+      
+<label for="card-number" aria-hidden="true">Card number here <span aria-hidden="true">*</span></label>
+        <input type="text" id="card-number" name="card-number" aria-describedby="card-number-help">
+        <p id="card-number-help">Enter your card number exactly how it appears</p>
 
-        <label for="zip-code">Cardolder's zip-code*</label>
+<label for="zip-code" aria-hidden="true">Cardolder's zip-code <span aria-hidden="true">*</span></label>
         <input type="text" id="zip-code" name="zip-code" required>
+
+<span>
+     <button type="submit">Submit</button>
+</span>
+        
+
     </form>
    </section>
 </body>
