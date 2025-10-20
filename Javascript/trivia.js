@@ -21,7 +21,7 @@ const botlocation = "anaheim, ca";
 
 let favoritelanguage;
 favoritelanguage = "ruby";
-let codingFact; 
+// let codingFact; 
 codingFact = "yukihiro 'matz' matsumoto";
 
 
