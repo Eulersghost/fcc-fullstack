@@ -38,16 +38,38 @@
 // console.log(show_result);
 // booWho();
 
-function booWhoo(x){
-    let userInput = typeof x;
-    if (userInput === "boolean"){
-        return console.log("True");
-    }
-    else{
-        return console.log("False");
-    }
+// function booWhoo(x){
+//     let userInput = typeof x;
+//     if (userInput === "boolean"){
+//         return console.log("True");
+//     }
+//     else{
+//         return console.log("False");
+//     }
+// }
+// function booWho(x){
+// //     if (x === true || x === false){
+// //         return console.log(true);
+// //     }
+// //     else {
+// //         return console.log(false);
+// //     }
+// // }
+
+
+function booWho(value) {
+  return typeof value === 'boolean';
 }
 
-booWhoo(1);
-booWhoo(true);
-booWhoo("true");
+booWho(true);
+booWho(false);
+booWho([1, 2, 3]);
+booWho([].slice);
+booWho({"a":1});
+booWho(1);
+booWho(NaN);
+booWho("a");
+booWho("true");
+booWho("false");
+
+
