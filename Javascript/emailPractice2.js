@@ -5,7 +5,7 @@ function findKey(emailString) {
     let key = "@";
     let keyAnswer =  emailString.indexOf(key) - 1; //I had before the (key) - 1
     // let stringSlice = emailString.slice(1,keyAnswer);
-    let stringSubstring = emailString.substring(1,keyAnswer);
+    // let stringSubstring = emailString.substring(1,keyAnswer);
     let stringReplace = emailString.replace(stringSubstring, "x");
 
 
