@@ -20,3 +20,6 @@ function findKey(emailString) {
 }
 
 findKey(emailString);
+const test1 = prompt("What is your name?");
+
+console.log(test1);
