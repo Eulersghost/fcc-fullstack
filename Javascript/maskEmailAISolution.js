@@ -18,3 +18,5 @@ function maskEmail(email) {
 }
 
 // Declare a variable to store the email address
+
+maskEmail(email);
