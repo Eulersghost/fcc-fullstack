@@ -27,7 +27,7 @@
 
 // let email = "doej2546@gmail.com";
 // let email = "freecodecamp@example.com";
-let email = "info@test.dev";
+let email = "user@domain.org";
 // let email = "apple.pie@example.com";
 
 function maskEmail(email){
@@ -44,7 +44,7 @@ function maskEmail(email){
         }
     }
 
-    return emailMasked +  domainSlice;
+    return emailMasked + '@' + domainSlice;
 }
 
 console.log(maskEmail(email));
