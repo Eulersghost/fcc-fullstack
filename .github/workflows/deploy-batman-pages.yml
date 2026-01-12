@@ -16,9 +16,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Upload Batman folder artifact
+
+      - name: Upload Batman pages artifact (index + stylesheet)
         uses: actions/upload-pages-artifact@v1
         with:
-          path: 'Batman'
+          # explicitly upload both files; you can also use `Batman` to upload the whole folder
+          path: |
+            Batman/index.html
+            Batman/style.css
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
