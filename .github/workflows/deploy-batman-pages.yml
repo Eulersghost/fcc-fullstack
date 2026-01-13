@@ -1,0 +1,29 @@
+name: Deploy Batman GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload Batman pages artifact (index + stylesheet)
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # explicitly upload both files; you can also use `Batman` to upload the whole folder
+          path: |
+            Batman/index.html
+            Batman/style.css
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
