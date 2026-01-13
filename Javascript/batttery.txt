@@ -1,0 +1,3 @@
+powercfg /batteryreport
+
+go to C:/ then Users and your local user
