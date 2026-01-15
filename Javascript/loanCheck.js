@@ -12,7 +12,7 @@ if (annualIncome >= minIncomeForDuplex && creditScore >= minCreditScoreForDuplex
     return "You qualify for a duplex, condo, and car loan.";
 }
 else if (annualIncome >= minIncomeForCondo && creditScore >= minCreditScoreForCondo){
-    return "You qulify for a condo and car loan.";
+    return "You qualify for a condo and car loan.";
 }
 else if (annualIncome >= minIncomeForCar && creditScore >= minCreditScoreForCar){
     return "You qualify for a car loan.";
