@@ -1,6 +1,9 @@
 function findLongestWordLength(sentence){
-    let wordCount = sentence.getWordCount(sentence);
-
+    let wordCount = sentence.split(" ");
+    let counter = 0;
+    for (const char of wordCount) {
+        char.length
+    }    
 }
 
 /*
