@@ -1,4 +1,10 @@
 {
+   "runOnSave.commands": [
+    {
+      "match": ".*",
+      "cmd": "task Auto Git Push"
+    }
+  ],
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
   "editor.fontLigatures": true,
