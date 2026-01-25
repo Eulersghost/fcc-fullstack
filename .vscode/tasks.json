@@ -5,7 +5,6 @@
       "label": "Git Auto Commit",
       "type": "shell",
       "command": "git add .; git commit -m 'Auto-commit'; git push origin main",
-    //   "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": true
@@ -17,9 +16,9 @@
         "panel": "shared",
         "showReuseMessage": true,
         "clear": true,
-        "close": false,
+        "close": false
       },
-      "problemMatcher":"$terminal"
+      "problemMatcher": []
     }
   ]
 }
