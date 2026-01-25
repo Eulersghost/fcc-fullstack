@@ -10,6 +10,7 @@ Pseudocode
 5. return `Factorial of ${num} is ${result}`
 
 this is something that I'm working on right now and it's not too bad but there are still a lot of things that 
+something else that I'm working on and it's pretty cool, I haven't ironed it out completely yet but I'll figure it out
 */
 function factorialCalculator(num){
 
