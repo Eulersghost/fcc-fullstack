@@ -13,7 +13,7 @@
       "presentation": {
         "echo": true,
         "reveal": "silent",
-        "focus": false,
+        "focus": true,
         "panel": "dedicated",
         "showReuseMessage": true,
         "clear": false
