@@ -28,12 +28,11 @@
 // function booWho(show_result){
 //     if (show_result = "boolean"){
 //         return "True";
-//     } 
+//     }
 //     else{
 //         return "False";
 //     }
 // }
-
 
 // console.log(show_result);
 // booWho();
@@ -56,20 +55,17 @@
 // //     }
 // // }
 
-
 function booWho(value) {
-  return typeof value === 'boolean';
+  return typeof value === "boolean";
 }
 
 booWho(true);
 booWho(false);
 booWho([1, 2, 3]);
 booWho([].slice);
-booWho({"a":1});
+booWho({ a: 1 });
 booWho(1);
 booWho(NaN);
 booWho("a");
 booWho("true");
 booWho("false");
-
-

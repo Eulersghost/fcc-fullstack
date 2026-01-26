@@ -1,51 +1,47 @@
-// function addTwoAndSeven (){
-// return 2+7;
+// function addTwoAndSeven (){ // return 2+7; // }
 
-// }
 
-// function addThreeAndFour(){
-//     return 3+4;
-// }
 
-// addTwoAndSeven();
+
+
+
 
 // console.log(addTwoAndSeven());
 // console.log(addThreeAndFour());
 let num, num1, num2;
 
 // sum function
-function calculateSum(num1, num2){
-return num1+num2;
+function calculateSum(num1, num2) {
+  return num1 + num2;
 }
 
 // difference function
-function calculateDifference(num1, num2){
-return num1 - num2;
+function calculateDifference(num1, num2) {
+  return num1 - num2;
 }
 
 //product function
-function calculateProduct(num1, num2){
-return num1 * num2;
+function calculateProduct(num1, num2) {
+  return num1 * num2;
 }
 
 // quotient function
-function calculateQuotient(num1, num2){
-    if (num2 === 0){
-        return "Error: Division by zero";
-    }
-    else {
-        return num1/num2;
-    }
+function calculateQuotient(num1, num2) {
+  if (num2 === 0) {
+    return "Error: Division by zero";
+  } else {
+    return num1 / num2;
+  }
 }
 
 // square function
-function calculateSquare(num){
-    return Math.pow(num, 2);
+function calculateSquare(num) {
+  return Math.pow(num, 2);
 }
 
 // sqrt function
-function calculateSquareRoot(num){
-    return Math.sqrt(num);
+function calculateSquareRoot(num) {
+  return Math.sqrt(num);
 }
 
 console.log(calculateSum(2, 5));
@@ -69,4 +65,4 @@ console.log(calculateSquare(2));
 console.log(calculateSquare(9));
 
 //running tests for the sqrt function
-console.log(calculateSquareRoot(9)); 
+console.log(calculateSquareRoot(9));
