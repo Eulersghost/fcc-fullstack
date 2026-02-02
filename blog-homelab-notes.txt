@@ -1,0 +1,10 @@
+Networking complete tutorial
+https://homenetworkguy.com/how-to/beginners-guide-to-set-up-home-network-using-opnsense/
+
+My setup: 
+
+1. WAN connected through Wifi extender to modem upstairs from the ISP
+2. patch cable is going from WAN port over to managed switch
+3. LAN is also connected to switch to bridge the two together
+4. WAP is connected to switch also
+
