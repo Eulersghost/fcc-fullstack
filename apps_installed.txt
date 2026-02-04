@@ -1,0 +1,10 @@
+apps that I have installed general to start and then terminal specific ones
+
+btop
+ztop
+htop
+
+fzf
+ripgrep
+fish
+starship
