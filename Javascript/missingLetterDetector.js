@@ -6,7 +6,12 @@
 
 function fearNotLetter(range){
     for (i = 0; i <= 25; i++) {
+    Compare the character code of str[i] and stri[i+1] *** side note how do I do that?
+    If the difference is greater than 1, what does that mean?
+        what should you return?
     if range.length()
     }
+    If you finish the loop and found no missing letter,  what should you return?
 }
+    
 */
