@@ -4,7 +4,29 @@ https://homenetworkguy.com/how-to/beginners-guide-to-set-up-home-network-using-o
 My setup: 
 
 1. WAN connected through Wifi extender to modem upstairs from the ISP
-2. patch cable is going from WAN port over to managed switch
+2. On managed switch patch cable is going from WAN port of extender over to (port 8) connected from (port 7) over to OPNSense router.
 3. LAN is also connected to switch to bridge the two together
-4. WAP is connected to switch also
+4. Port 6 is for main workstations
+5. Port 5 is for Wifi AP.
 
+---
+
+This is the setup that I did to start my homelab I did a dry run of this and now have everything dialed in how I want based on the Dev.to article by Patima Poochai
+
+
+Refer to the network diagram below: 
+
+
+Goals of the project 
+    - setup the network with OPNSense
+    - setup on the network a WAP
+    - get everything cable managed
+    - wifi extender configuration
+    - VLAN assignment for switch
+
+
+The planning part was the easiest, where we are setup in our apartment the Modem from the ISP is a direct line of sight below us and the Wifi Extender is set up to pick up that traffic.  It also has some cool features that allow you to configure a DHCP but I'll get to that later. 
+
+The reason behind why I wanted to create a home-lab was to not only have better service downstairs but to also set up a safe space to build stuff and experiment with.  Ethernet speeds usually are better and more reliable but I'm aware also that failover is a big possibility with this type of setup and I don't have the money to throw for a second ISP router. 
+
+1. Setup the Wifi Extender and get it connected to your ISP.  Sadly the security settings on these devices aren't the greatest. Before getting it configured to the existing network I did an update of the firmware to make sure that it was the latest version before getting network configured.  With TP-Link it's pretty good with installing new firmware.  I then connect it to the existing network, configure it so that way it's not broadcasting a LAN through Wifi signals.  
