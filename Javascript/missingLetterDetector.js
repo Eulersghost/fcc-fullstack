@@ -5,7 +5,10 @@
 3. if all the passed letter range are present function returns "undefined".
 
 function fearNotLetter(range){
-    for (i = 0; i <= 25; i++) {
+    for (i = 0; i <= range.length -2; i++) {
+    let range_result1 = range.charCodeAt(i);
+    let range_result2 = range.charCodeAt(i+1);
+        if range_result1 > range_result2
     Compare the character code of str[i] and stri[i+1] *** side note how do I do that?
     If the difference is greater than 1, what does that mean?
         what should you return?
