@@ -1,0 +1,3 @@
+https://github.com/JWT890/microsoft-sccm-lab
+
+This is a pretty good walkthrough for setting up SCCM 
