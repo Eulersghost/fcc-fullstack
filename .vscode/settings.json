@@ -84,5 +84,6 @@
   "peacock.color": "#832561",
   "liveServer.settings.port": 5501,
   "atlascode.bitbucket.enabled": false,
-  "task.quickOpen.showAll": false
+  "task.quickOpen.showAll": false,
+  "editor.formatOnSave": true
 }
